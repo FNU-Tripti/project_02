@@ -12,10 +12,22 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-nav#horz1 {
+nav#horz1, .fixed-footer {
   background-color: rgb(50, 61, 214);
   border-radius: 2px;
   display: block;
+  width: 100%;
+}
+
+.fixed-footer{
+  bottom: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.foot{
+  width: 80%;
+  margin: 0 auto;
 }
 
 nav#horz1 ul {
@@ -68,6 +80,7 @@ nav#horz1 ul li a:hover {
 
 .row{
   display: flex;
+  width: 100%;
 }
 .column {
   float: left;
@@ -86,4 +99,16 @@ h3.video{
 
 .container.frame{
   display: block;
+}
+
+div#experience{
+  display:block;
+}
+
+div#experience ul {
+  list-style: square;
+}
+
+div#experience ul li:hover{
+  font-size: 1.5em;
 }
