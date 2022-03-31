@@ -8,11 +8,11 @@ h1, h2, h3, h4 {
   font-weight: 400;
 }
 
-h1#mainhead {
+h3#mainhead {
   color:red;
 }
 
-h1#mainhead:hover{
+h3#mainhead:hover{
   font-size: 3em;
 }
 
