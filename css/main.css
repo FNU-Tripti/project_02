@@ -1,3 +1,12 @@
+h1, h2, h3, h4 {
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Tinos', serif;
+}
+
 nav#horz1 ul {
  list-style-type: none;
  padding: 0;
@@ -20,7 +29,8 @@ nav#horz1 ul li a {
   width: 100px;
   padding: 10px 0px 8px 0px;
   border-radius: 4px;
-  font-family: Arial, sans-serif;
+  font-family: Arial, 
+  sans-serif;
 }
 
 nav#horz1 ul li a:hover {
