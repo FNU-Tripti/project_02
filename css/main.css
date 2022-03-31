@@ -8,6 +8,18 @@ h1, h2, h3, h4 {
   font-weight: 400;
 }
 
+h1#mainhead {
+  color:red;
+}
+
+h1#mainhead:hover{
+  font-size: 3em;
+}
+
+h2{
+  font-weight: bold;
+}
+
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -17,17 +29,21 @@ nav#horz1, .fixed-footer {
   border-radius: 2px;
   display: block;
   width: 100%;
+  margin-top: 20px;
 }
 
 .fixed-footer{
-  bottom: 0;
+  margin-bottom: 20px;
+  bottom: 20px;
   text-align: center;
   color: #fff;
 }
 
 .foot{
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 nav#horz1 ul {
@@ -40,6 +56,7 @@ nav#horz1 ul {
 
 nav#horz1 ul li {
   padding-left: 20px;
+  padding-right: 20px;
   display: inline-block;
 }
 
@@ -101,14 +118,36 @@ h3.video{
   display: block;
 }
 
-div#experience{
-  display:block;
+.highlight{
+  font-weight: bold;
 }
 
-div#experience ul {
+div#experience, div#skills, div#numlist{
+  display:block;
+}
+ 
+div#experience ul, div#skills ul {
   list-style: square;
 }
 
-div#experience ul li:hover{
+div#experience ul li:hover, div#skills ul li:hover{
   font-size: 1.5em;
 }
+
+.numlist ol{
+ list-style: upper-roman;
+ color: red;
+}
+
+
+.numlist ol li span#listhead:hover, span#listhead1:hover{
+  font-size: 3em;
+}
+.numlist ol p{
+  color:black;
+}
+
+.listhead{
+  color: red;
+}
+
