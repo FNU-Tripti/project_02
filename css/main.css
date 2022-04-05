@@ -80,6 +80,10 @@ nav#horz1 ul li a:hover {
   text-transform: capitalize;
 }
 
+#onpage {
+  text-decoration: underline overline;
+}
+
 #floatleft {
   float: left;
 }
