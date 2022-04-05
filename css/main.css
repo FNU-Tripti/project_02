@@ -78,6 +78,7 @@ nav#horz1 ul li a:hover {
   background-color: #fff;
   color: rgb(50, 61, 214);
   text-transform: capitalize;
+  transition: 1s;
 }
 
 #onpage {
