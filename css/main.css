@@ -13,7 +13,8 @@ h3#mainhead {
 }
 
 h3#mainhead:hover{
-  font-size: 3em;
+  font-size: 2em;
+  transition: 1s;
 }
 
 h2{
@@ -137,6 +138,7 @@ div#experience ul, div#skills ul {
 
 div#experience ul li:hover, div#skills ul li:hover{
   font-size: 1.5em;
+  transition: 1s;
 }
 
 .numlist ol{
@@ -147,6 +149,7 @@ div#experience ul li:hover, div#skills ul li:hover{
 
 .numlist ol li span#listhead:hover, span#listhead1:hover{
   font-size: 3em;
+  transition: 1s;
 }
 .numlist ol p{
   color:black;
